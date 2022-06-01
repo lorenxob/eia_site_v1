@@ -88,11 +88,11 @@ WSGI_APPLICATION = 'eia_site.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'DBEIA',
+        'NAME': 'dbeia',
         'USER': 'admin',
-        'PASSWORD': 'Admineia*',
-        'HOST': 'dbadmin.c2xacwacu1dj.us-west-2.rds.amazonaws.com',
-        'PORT': '3306',
+        'PASSWORD': 'admineia',
+        'HOST': 'dbeia.chfege0xcxax.us-east-1.rds.amazonaws.com',
+        'PORT': '3306'
     }
 }
 
